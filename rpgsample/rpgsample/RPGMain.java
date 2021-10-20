@@ -146,7 +146,7 @@ public class RPGMain {
 
         //モンスター→主人公からの攻撃
         for(int i=0; i < MONSTER_NUM;i++){
-            if(monster[i].isTher()){
+            if(monsters[i].isThere()){
             monsters[i].attack(braver);
             }
         }

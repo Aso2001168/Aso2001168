@@ -21,7 +21,7 @@ public class MetalSlime extends Monster{
      */
     @Override
     public void attack(Creature opponent) {
-        /*0~99*/ < 400
+        /*0~99*/ 
         Random r = new Random();
         if( r.nextInt(100) < ESCAPE_RATE ){
             System.out.printf("%sは逃げ出した！\n",getName());
